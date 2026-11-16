@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя личная страница</title>
 
-    <!-- 1. Bootstrap CSS (CDN) -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!-- 2. Тема Bootswatch (замените flatly на нужную) -->
+    <!-- Тема -->
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/brite/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Немного кастомных стилей для фото и отступов -->
     <style>
         .profile-photo {
             width: 180px;
@@ -21,7 +20,7 @@
             border: 4px solid var(--bs-primary);
         }
         section {
-            scroll-margin-top: 70px; /* Чтобы навигация не перекрывала заголовки */
+            scroll-margin-top: 70px;
         }
         .project-card {
             transition: transform 0.2s;
@@ -51,7 +50,7 @@
         </div>
     </nav>
 
-    <!-- ГЛАВНЫЙ ЭКРАН (ФИО + ФОТО) -->
+    <!-- ГЛАВНЫЙ ЭКРАН-->
     <header class="container text-center pt-5 mt-5">
         <div class="row justify-content-center align-items-center py-4">
             <div class="col-md-4 text-center">
@@ -63,7 +62,7 @@
         </div>
     </header>
 
-    <!-- ОБО МНЕ (Учёба, Биография, Интересы, Увлечения) -->
+    <!-- ОБО МНЕ -->
     <section id="about" class="container py-5">
         <h2 class="border-bottom pb-2 mb-4">Обо мне</h2>
         <p>
@@ -119,7 +118,7 @@
         <small>© 2026 Водолазская Елизавета.</small>
     </footer>
 
-    <!-- Bootstrap JS (необходим для работы мобильного меню и scrollspy) -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
